@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    background: #FFFFFF;
+    padding: 20px;
+    /* position: relative; */
+}
+
+.tag {
+    display: inline-block;
+    background: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    /* position: absolute;
+    top: -12px;
+    left: 20px; */
+}
+
+.date {
+    display: block;
+    color: hsl(0, 0%, 7%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.card-content h1 {
+    margin: 0;
+    color: hsl(0, 0%, 7%);
+    font-size: 20px;
+}
+
+.card-content p {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* 交互元素的悬停和焦点状态 */
+/* .card-content a:hover,
+.card-content a:focus {
+    text-decoration: underline;
+    outline: none;
+} */
+
+/* .author:hover img,
+.author:focus img {
+    box-shadow: 0 0 0 3px #FFAB00;
+} */
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
