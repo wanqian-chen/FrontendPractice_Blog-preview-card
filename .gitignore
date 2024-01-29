@@ -16,4 +16,4 @@
 .prettierignore
 
 # Avoid README-t.md files being uploaded
-README-t.md
+README-template.md
