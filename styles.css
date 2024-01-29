@@ -78,17 +78,20 @@ body {
     font-weight: bold;
 }
 
-/* 交互元素的悬停和焦点状态 */
-/* .card-content a:hover,
-.card-content a:focus {
-    text-decoration: underline;
-    outline: none;
-} */
+.card-content h1:hover,
+.card-content h1:focus {
+    color: hsl(47, 88%, 63%);
+}
 
-/* .author:hover img,
+.author:hover img,
 .author:focus img {
     box-shadow: 0 0 0 3px #FFAB00;
-} */
+}
+
+.author:hover span,
+.author:focus span {
+    text-decoration: underline;
+}
 
 
 @media (max-width: 768px) {
